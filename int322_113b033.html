@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+  <title>Lottery Finder</title>
+
+  <style type="text/css">
+    .ref0 { font-family: Georgia, monospace; font-size: 14pt }
+    .ref1 { font-family: Georgia, monospace; font-size: 18pt; color: #0000ff }
+    .ref2 { font-family: Georgia, monospace; font-size: 12pt; color: #ff0000 }
+    .ref3 { font-family: Georgia, monospace; font-size: 10pt }
+  </style>
+</head>
+<body>
+<!-- 
+********************************
+   Samuel Azan
+   036742104
+   Section B
+   LOTTERY FINDER: Select either Lotto6/49 or LottoMax,
+                   and allow the user to select one of the 
+                   four functions that will take your input
+                   and display the actual/correct lottery draw.
+   Danny Abesdris
+   Due Date: Monday December 5, 2011
+   Date submitted: Monday December 5, 2011
+********************************** 
+-->
+<h1>Lottery Finder</h1>
+
+<p>Welcome to the lottery finder. Select from the following choices below, to determine your lottery.</p><br />
+
+<form method="post" action="requirements.php">
+<p><h3>Select a lottery from the following:</h3>
+  <select name="lottery">
+    <option value="lotto649" selected="selected">Lotto649</option>
+    <option value="lottoMax">LottoMAX</option>
+  </select>
+</p>
+
+<h3>Select a function that you want to operate:</h3>
+<p>Find a specific past winning number by providing a date <input type="radio" name="function" value="F1" /></p>
+<p>Retrieve past winning numbers where all 6 or 7 values sum to a specific range(excluding bonus number) <input type="radio" name="function" value="F2" /></p>
+<p>Determine the "mean" value of any ONE of the 6 or 7 numbers (including bonus number) <input type="radio" name="function" value="F3" /></p>
+<p>Choose your favourite 6 or 7 numbers and it will return any draws that matched (exactly) all of your numbers <input type="radio" name="function" value="F4" /></p>
+
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset Form" /></p>
+</form>
+
+<br />
+<p>Student Oath:<br />"This assignment represents my own work in accordance<br />with Seneca Academic Policy"<br /></p>
+<p>Signature: Samuel Azan<br />Student ID: 036742104<br />Email: sbazan@learn.senecac.on.ca</p>
+
+<br />
+<p>
+   <a href="http://validator.w3.org/">
+	<img src="http://www.w3.org/Icons/valid-xhtml10"
+	     alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+</body>
+</html>
